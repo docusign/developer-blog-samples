@@ -1,2 +1,3 @@
-# developer-blog-samples
-Hosts sample documents and code files for Docusign developer blog posts.
+# Docusign Developer Blog sample files
+
+This repo hosts sample documents and code files for Docusign developer blog posts.
