@@ -1,0 +1,111 @@
+{
+	"id": "fd5e06f9-921a-4134-9a8c-f52d19ff98fa",
+	"name": "Accounts app",
+	"description": {
+		"short": "Extension App for Account Management",
+		"long": "Extension App for Account Management"
+	},
+	"termsOfServiceUrl": "https://www.samplecompany.com/tos",
+	"privacyUrl": "https://www.samplecompany.com/privacy-security",
+	"supportUrl": "https://www.samplecompany.com/support",
+	"publisher": {
+		"name": "Tally Workshop Inc",
+		"phone": "111-222-3333",
+		"email": "info@samplecompany.com",
+		"website": "https://www.info@samplecompany.com/"
+	},
+	"connections": [
+		{
+			"id": "bd5bf2d9-73ed-4df2-afb5-7c4fcd8cba15",
+			"name": "authentication",
+			"description": "Secure connection",
+			"type": "oauth2",
+			"params": {
+				"provider": "CUSTOM",
+				"clientId": "5630469f-c738-4978-8d7f-30b979b361de",
+				"clientSecret": "~r88Q~x8IkpMFpXTQXN-0BTJMLxR48_mKZjJ4bMj",
+				"scopes": [
+					"offline_access",
+					"api://5630469f-c738-4978-8d7f-30b979b361de/user_impersonation"
+				],
+				"customConfig": {
+					"authorizationMethod": "header",
+					"authorizationParams": {},
+					"authorizationUrl": "https://login.microsoftonline.com/5221c46c-b7b6-41e0-a534-78064848cd54/oauth2/v2.0/authorize",
+					"requiredScopes": [],
+					"scopeSeparator": " ",
+					"tokenUrl": "https://login.microsoftonline.com/5221c46c-b7b6-41e0-a534-78064848cd54/oauth2/v2.0/token",
+					"refreshScopes": []
+				}
+			}
+		}
+	],
+	"icon": {
+		"data": "iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAABJ0AAASdAHeZh94AAAAB3RJTUUH6QEeBRIFfmyvQQAAFlJJREFUeJztnXmQHFd9x7+/193Tc+2lw1aMbcxRxMZGsSxwDMZxLLCNhWxZtrRKAFOpAlKVP1IUoZJKKlRIUpVCkBRXEorEhICBAltKOEwwhABJcMDhKMDYyMbBh9BKK61W2pndObvf++WP7p55fc3Zs/pnf1W9s9393uvXv0//vu/onh5gwzZswzZswzZswzZsw7I3Ot8VAIDy698zK9ry+UbJzL3grfO07YbLUP3ZKhzHmcjxyDRZGFAAANOCZRddV1We+5/tsysTOeAQdn6B7LtfzDSfPUTA70C5W8ES1nQRF7z2emy96TqopgSYJ3NsZuglM/ESHPcTtPq/f/LtXbvkZA7a38zzdWAAmGk88xmzOPdbslHxHK8YzVNn8MxHPwlZW8W23TfDrTXGv2y4WwSH/3T+FZa11bqg+IeN9s5LAPz2mEcc2c5bhMzc9tc3GXbpm9xaA7MElLcwS6hmDSQkXvqXfwxrbhbsuKMfiPV/ObQe3Q8SsKaLaJ1d2/Xd66e+NfpBRzdxPg4KAET0ZpAAiEAggLyFiCByNtxqDZWfPAbDtocvnLUFDGZv6Tg/tF/bpiRAgCC+Z6yTG8POC5Bte/6hQMBtkC0PhCB4cAQA73+ycqj85KdgOaCcR5wcQOCo05PWA3AA3DUHDN694wdcGPM0R7LzAqRBq7soV7qQpQtPNUUnQiA8MEahhLX/ew7Nk4sQlpVemA5Bj4bo/sToYC2Pt021mzCnpi/Mt2o3ZXzaA9l5AcKK5lkIMPl+6ciWFyEkBMiy4K7VUX3sKISdixSA0SQpBUI0DQmA2D2Y+YkPYOsOZPbGvysJYDe7LcBvO5gITALcgSIAMkCmjZUfPwZ2/UZ9bElKh6DDlLU2mHHbjd86Vcr49Pva+kfIdPs1ZJe3QEl0O3lduWISYCJftoqoPX0MjYWTEKY1mCTp2waIhvC6l162mzCnZ7Y6Vn5X5uffx9YdCIPmPU2Az8P/h4TW2/IbeCsHZ62B6uNHQTlrMEniASCEymEtT3c/EcAK6y5b6wpk5vaPlYnpdR25AnXBBI263sCTAOVsrPzkcSjH8RJmIEkhcEBiHllvAYzXvfJhVc7cET1sXYEw6jeTXdoM1ruyBD1KQl1gEjDyRdSe+SWaCye7va0xJSkaDaH0/rpqt2BOT29WbuXmbL3Q29YVCLE66EUBtIjQJgtig0QBMi24tSaqjz/hAclIkmJ5Out+emawF8Dz2Xqht60bkKn9h6aZxC3sthGGgAgc0V1IAEJA5GysPPo4VLsdBEbXRpSkVBDBZgZkrQkG3brj62enM3JDX1s3ICRLt4h8aY7Z9U+avG5uJEI8yfI/fRkThSLqzx1HY+EEhJXr0agPLkneNi0agFgedlqwpmbm8pa4JXuPJNv6SZbkg922otuYx+D4UhVEB5EAGRbceqsrW4GNK0noRkOvCGKl1k221gVI+fUfmQWJm73eVWBpcPxxSKihNyDsPCqPHYVqtb3sGUhSegT5/zBD1utgpluu//LKbIYuSbV1AUI5eauwyzNgGW/IvRQIw/FAeKN3L1pEvojasQU0FhZAljWaJCEpjb4epPezAlBOG+bM7Iybl7dm6JJUWx/JYgoPsGINeWSnPy0Poc0EGxZko43Kz5JkSz9WDwhp0cAaiGi5nWChdZGtiQMp7v3bTUT0mtBgUG/MY3A0qQp6Wv60Ctl5VB5/Aqrll5WBJAUQEvP422S9DhC99uVfP74pW+/EbeJABInbhD013ZGrUEAkwUEHDmldYfJlq/7Lk2gcP9EZk4wrSek9NnQaJ263YE3PThOKr8vMMSk2eSCg+ZDDtIFfTzihEbsPxTAhm55skWVmI0nRda1x0sGxYpDiicvWRIEU7/7QFha0i4M7g6CI73rBEd39QnRuXAm7gOrPnoBsRmRrDEkK9RC6/EJpZL0GEL1m57eqmzN0UcwmCsSQ1m5hT5WhvEegdDnS4XR2RuEEUyno3rgS+QLqC4toHl/wZUsvpHtJDyNJOoTERh0AOw7M6bmy0XJ3Z+agBJsoECIx373U9AYbITicBqcTGd1GngwTquWicvRJCNNCkiT1bEtSJCmcRl/nTh5WCozJDhInBqSw7yNbQXRTR67S2ouecLrT8HqbQnYe1aNPQjYbCEXaGJKU1GMLNgarnmyJm6772urWbLwUt4kBMYSxh/JTRe/OIBCSpJD1g9Nt1L1pFQNGvoDGiVOo+4PELCQpHA1IBMeOA3NqruSy+/oMXJRok5QsX64SBn80ApzgvjsRYJhQbRfVjmwhE0kCBgAnJSCdid1JnAiQ/L6PbiMSN3pyhVhjHrJ+cIJBoXbTCmSA7AKqTzwF2Wj4aVMkKVHGUiCkylg3gayvAWTcuONfTm8by0kpNhEghjD3kD1VYCURnsnFCHD0qOm2IyJfQOPkaTQWFiAsM/3KDq33lqR4BIULZQDKdWFObyqYOewZx0dpNhnJIp4HFHSHe+eZACc6IOyUoXeDg6catR6XYUK5EpWjT4JMK+zMcSQpQiqhCLCUUDyZO4mZA7H3f+IiQcYN7LS60RC56kNwaEA4gkCdnhaBICByBVR//hRkvRGOqjEkSY+GtGl9VV8DCeOG7Q+euWgcXyVZ5kAscm+nfDkPDkcIgDHh6G2If2s3n0dzcQn1heOhua2g4FEkKRoN4TzeTnYdmNOb8hbz7eP6K2qZAyHQPFgNLklpshaFE71pFciWVKg++XMI00y60EeSpBgExMEp1wFz9oPETIHMHvz4xRDienb05676SJIuaz3heCBIm5YnMiDsAlafehpuo+nfaQwV0F0ZQpJiEDgOTjVqIGFev/Pzyxdn4LqOZQqkDewle8r25Eq3jOCEblp5gERhGvXF04+wlI8Y+VImkqSXkQaOXQfm1JzN5N4xqr+SLFvJUjjALMEpjvVsDDjkjdy9++5+454roHW2cm9h29w/Ui4Xa8FHlaRYHn1H0FlwHCDjKfnMgOTe8OlLhWG+MpCrzjkPA0fflggnmD7x9jOZYLctubL8VXMTviarFQlhAEi/sgeVpHAebYcGUzZrgGG+8uojZy8dw3UhywyIKd07yZ7KdeWq69iB4cTujSTB8ScahQBZeSioH+D4kRPfvFScUE77ByJfykSS4oMPhHkwwK4Lc2pTTpju3hHdFrMsJesAlBvu2iY4dmw4wUQjCDBzgGEc1vIdCU02jilJsUAKlesncVpgqQ4M765kywTIzJvuu0wI89fDz10B/a76GJyk7nGsDL+3JUxwu+Gair8QpJRSfd6trrgkBBIlCaNFQxSC3k75va3rrv3iucuG9VuSZQJEStpH+bIFqCEcC8Tg0OBwPLni71UffOcvgr0/2nvhL9h1vieC3hZSruxeENKiIWm4z4CSEubUnOW4zp1DOy7BMgGiWB2A1L4R1fHnhOAQAYYNIcRhRI1xmMxcZpKUBCGigN5D4EpmIltjA5l+030vgmG9gt2mvyXiwEnAIRPcrjsGGV+IFAaDrS841XMOCf8lFWNKUih9Uh4GVHMNZJjX7rj/1IuGcF2ijQ3EkbRP2GWTwf5NJN3hY8BJKKPT3lh5gNUjlSO/+2y0Pt/bO/csu+4jIl/MRJISwUU6CywlzPKcqaD2Dei2VBsbCIEOQIZffRGAGQtOr3sjwoIUxgM9qnVYn5IfR5LiERTd6X2qdgvEvL9HnQaysYBMvfFTL4Fh7mQZfUy0a9nCASAMcGut7bryS2n1Uq75RVk924ZhZiJJ3Z0cKae7STbrgGm9/KpPHX9JL5/1s7GAuBD7hD1lgDni4wzgJJYR9K7Ud9r/+tZjafX68f5Nx5SU3xF2SbuKR5ekRAgcySNdmOVZwzSNsWRrLCAE2g/Z7qx1lizgJJYBgEyQoF5y5ZkKZCsbSYqxiYEDuNUCYzzZGhlI8Z7PXg7DvIZlW5OawCYER5jg9lrLFSJVrjq5hfMlt7rcIsPMRJLCeZIK9Oa2yLCu2fHZE5f3q1+ajR4hku8WuSnRmbsK2oAJwiErD0A93PrMPQv9qvfDfRcfZ1c+LOxSNpKk9whibZKfXikY5VmhFO7qV780GxmIEnQ3yzY4ybEZw+lmNwGI/nLVKQCHYaQ//zusJEVBJN2d5FYDDDmybI0EpPCmz10pjNyO4Lmr4K0+k4LDRGDDhGyvNVw2Hhy0nlK1H3Sry01PtsaXJADxvgFrG8GQzTqEmd+x/b6TVw5aT91GAkLA3ZQr+ZUInEohOIlX/RhwyMwDrL7d/NwbTg5az0cPXnoCSv63yGsv9RlHkkLbWMujlaMUjOIMYPBIsjUSEEW4G9J/90iSY4k60x2pcKBArC1KgZT0P/2FFYil/wmQ07p32Lra5fLHiESivIwiSWm9Nj2PbDUBxXcPW1cgKtoDWOHNh19GwnwULBG6d86xfxDbyf4BWUFZebBhhdMzkJifBMCq3Z7a+kaVL51KfpmqC7hu+LOxiunZ3LYX7Nz+aWEYue7rAjn0EappdFtSnaKr0TxE3re9lNz+2Bu2/TShsqk29GtiGbxf5ErgZgVdnqyhpQQ42qBPSTjlTWhvugTDXQ9swrAOg4yU3QowXEC6gHAA6QA2o7q4hNXFU2rukoshpfYitPBJxdlEvdwPgl4IM4zyNFTl9H4AQwEZXrIId0G1I76MSFJnNamBFnCmLgiu+iEWFpAO4DaTF9kG3Lb26SB4SdrK4mlBCW3DqJLEeoZoIX561WoATHclK0a6DQUkf8/hq4WRv0p/PV/PL+OEVv3GGQzhBt85HNL0Lk7SEhQZlE0CyNmoLq2gXW8g1Jak9JK627TVWJ7kHpueXbYaICt/1fZPLlw9zCkOFyGC9iNX9OsSacwHhMMkkDt3AqJVQ/CESHam9eC0t9K5TQerS8sgUzvesBCSulrRPNCKVBJGoQylMNSYZHAgzADRXd5UCfymgtB9oj2wPnBIQCgH+aWnIZprgMjwbeeh75D4UIQBCAsri0ugHhOM+mkOIklRCByi4aVXzQaI1V0JDU6qDQwk/5YjO8nIXwEn6fV8w8FhMkBKIX/mWRiNSsZQqAuDCCADsPNYXV5Bu173HkXNQJLCAdaFoKdTrTqEXbriyn86tnPQ6g8eIco4QLkCwrVMHtANAof9Rt0+8xyM+jnAyApKIFtatJiebK0tnYUw/AfpxpWkDoRIZ0EPEmaQXYIwaGDZGgzIu95FYOzjoDGO3cnzHTEsHGEABOSXj8FcPZNNpEQli4RXrpHDyuISgD6S5G8eRJL65QEzVKsGpXgf3sUD9WIGAmIv/NorKFd4CWKv58sAjv8aJvvcAszV0z6UEXpgocNTZBFALo/q2QpatZr3KGoaBI5CAGIQkqIBSeC87q9hl371ihccf8UgVR8ICJF1gKwCQEFNEqZCxoFDBBYC9spJWJVF72UBY0HRvwIXyJYF2XKxdma5I1tjS1IoT9IOb7vIlWAM2NvqD2Tf/QKMO8NjD2j+ygqOAAsDueop5FZOeG2KMDRPDGHR6OjIloXKqTN+b8tLOq4kdWeGkZpHtupQLPfhfu7r774J7LnCtcgVX8yypR0zcGq2cJgISpgwV5eRWz7WAhgwbYwPpStbq+cqaNXqnlRmIEmp4LTiVKsOI19+8VWrC9f2q3ZfIATMk2V3T9J39kThFGdhrp35LBTvBoQDK3jGahhLkq0cZEtidfkshBF//jdyYoNJEsL5unmCstmXrQKUdPt+l6Q3kHd/0wCwt/sVNf8jck9jEnCUlfsyDl35ENpre8CqBrs8HJRodAh/kGhYqJxaSm/UEYEwgCR1mPYYeKpmHWDae8O7uef0RE8g9snmdbCLL0x8sqSzmjEcw4JqVc81Tfl1AMD7rv53tFdvhnKXkZ8eHQq6srW2UkW7Fh4kjiNJ/cYvYO+HYkSh/MLli45d16vKPYGQlPNkaHIVupizhKOVmisCoK/i3vlqZ+P7rvkuaqu7INvHUZgdAkpEtoThyVZbYm3Z621lIknhkw3l6USPUiDTBqveLxxIB/K275sKtDf2rt2BZ3iHgaN3uRhMHH+Q4QPXPIra0m/CqT+F4txgUGK9LepAWTl9BqxUZpKUnCecnlt1EPiOHR/9fuoIOBVITi1eL+zS8z25il/JE4FjWFDN1eUWjP9IrNQHXvULrCzdiHb9RyhtjngixUKyJbqyVVlFu17rylZgI0pSuH+grWh5VLsJkZ+6rEEXviqtuqlAmMwDMHLwnmpH17EThEO5IkB4CP9851pavfD3rz4J2dyF5urDKG1JTdatQuQ9KX7Drtpeb8uIDBJHliQ9GpIAA4BikGmDZPoLB5KB7H/AIlJ3eN/58JzXGVmPDUdfpVA5zAqgAR4TPbR9BUtP3ILGykP9ofjH0N6TEshWdekMWHGyUwMbVJJSoixYD9KrZg2s1B2XP8CJPz2XCCS3qXwD2VOXoPOYaPgEx4OT1MuCP7WxutRsFb6RVKeY3bu3gaOP7kF95QGUtyQcW6+G6NYFfuPuy1azthaf2xpRkpIjqPOGek+2nCaMwswl4sxzr06qaiIQZponoQHsMWbICg5ZRQD0FXzm1npSnRLt8wcV3nP5Qayd+xhKm33HJ1kQHfrrnSwoR3V6W5lIkp6nAyKSRjHIzEHJ5N5W/Ax+/+c5IuzR5Sp8bhOCwwpM4v6kSva1Q1e8DbXl96M4l3xbOLW3ZaN6Zhmd19gC40lSJBqSogwAVLMGsLr94j97Jva7sjEgueYzN5I99Txot2oTZSZ6ouEdw8ExbcjW6ilHqP+M1mdgO3TlO7F25s+Rn/an8CM9sETZslFbXfOn5EUmkpQIQW+SmL3eVnH6eeXN/BvR04hHCNF85wuT/cYM4Xx94CAVDlkFCKJ/w717G7H6DGPvfdlfoHbuHcgVASMyKanP/Oqy5TJWl5dBQmQjSQnrnfSdHhuDhAVO+H2rBCDYySr4jdrwjvHg6L01PSsBLKFgjiZXUXvvVR9EvfIWGCZg5tH1TIpsGRYatXpyz2oUSQrlCSDEwbHTBgjXRKufBKTlfQ0A2tcBsofTkTTThmytLbbb9n/F6jKqve9lH0d77QBA4ZniJNkSJsj0f2s3I0lKjJ6Ignq/sYXoqy8Se1kPwSqGNgRwkDkcBtnTYBJHcN+uWOXGskPbj6BZuR3M3ZniqGzBk63y7Bygug4cW5KS8ujGDGGXQIyHortiQNqSPqjqy0dR2goISzsB/yeIhLcEv1aQuAhtSUxDgGGCSlugmueOG6C/GsbXA9vf7Pwamqu3QLnLKG/xGnth+A9XGIBizFxwAabnZiEVo/OStACW/vN90XXqSnAHdCxNfCHDhDn7K3Arp4828/yhaJWjlzsAIP+2h7ZJu/ghAnYDKIcn8iLYGUGrkGAc+gjtYdWAEN+AU3l7+967nk51ahb2Rz+8HPbM+6HkTWDOQzowSWF2ysaFF8wAwSxB0mlET5cjOxJPPWljAJDXAHwFzcrbn/iDly4mpUo1+x3fuUhKuQ3NRs90cXMAWJH1wCzAMNmwrKXWh2/45XDljml/+vSlEK0tptMQF06XxLbnb+b6uSo5TrS+aeb0TUHKZKNgSiWdiM8sCMNiSbnFp35vy4mR6r9hG7ZhG7ZhG7ZhG7ZhI9r/A3q5Jd6KyWD0AAAAAElFTkSuQmCC",
+		"mediaType": "image/png"
+	},
+	"screenshots": [],
+	"extensions": [
+		{
+			"name": "Employees",
+			"description": "Employee details",
+			"template": "DataIO.Version6.DataInputOutput",
+			"actionReferences": [
+				"GetTypeDefinitions",
+				"GetTypeNames",
+				"PatchRecord",
+				"CreateRecord",
+				"SearchRecords"
+			]
+		}
+	],
+	"actions": [
+		{
+            "name": "GetTypeNames",
+            "description": "Get list of tables",
+            "template": "DataIO.Version6.GetTypeNames",
+            "connectionsReference": "authentication",
+            "params": {
+              "uri": "https://presales-appcenter.azurewebsites.net/api/GetTypeNames"
+            }
+        },
+		{
+            "name": "GetTypeDefinitions",
+            "description": "Get list of fields of each table",
+            "template": "DataIO.Version6.GetTypeDefinitions",
+            "connectionsReference": "authentication",
+            "params": {
+              "uri": "https://presales-appcenter.azurewebsites.net/api/GetTypeDefinitions"
+            }
+        },
+		{
+			"name": "SearchRecords",
+			"description": "Search for records",
+			"template": "DataIO.Version6.SearchRecords",
+			"connectionsReference": "authentication",
+			"params": {
+				"uri": "https://presales-appcenter.azurewebsites.net/api/SearchRecords"
+			}
+		},
+		{
+			"name": "CreateRecord",
+			"description": "Create a new record",
+			"template": "DataIO.Version6.CreateRecord",
+			"connectionsReference": "authentication",
+			"params": {
+				"uri": "https://presales-appcenter.azurewebsites.net/api/CreateRecord"
+			}
+		},
+		{
+			"name": "PatchRecord",
+			"description": "Update an existing record",
+			"template": "DataIO.Version6.PatchRecord",
+			"connectionsReference": "authentication",
+			"params": {
+				"uri": "https://presales-appcenter.azurewebsites.net/api/PatchRecord"
+			}
+		}
+	
+		
+	]
+}
